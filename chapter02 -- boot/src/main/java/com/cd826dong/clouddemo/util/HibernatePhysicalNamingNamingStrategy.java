@@ -44,7 +44,7 @@ public class HibernatePhysicalNamingNamingStrategy extends PhysicalNamingStrateg
         if (identifier == null || !StringUtils.hasText(identifier.getText())) {
             return identifier;
         }
-
+        // 驼峰转下划线
         String regex = "([a-z])([A-Z])";
         String replacement = "$1_$2";
         String newName = identifier.getText().replaceAll(regex, replacement).toLowerCase();
