@@ -6,11 +6,10 @@
 
     <parent>
         <groupId>cd826dong.cloud</groupId>
-        <artifactId>springcloud-book-config-parent</artifactId>
+        <artifactId>springcloud-book-stream-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../parent</relativePath>
     </parent>
-
     <artifactId>config-server</artifactId>
     <name>SpringCloud Demo Projects(Stream) -- Config Server</name>
 
